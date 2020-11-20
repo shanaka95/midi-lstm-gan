@@ -1,9 +1,9 @@
+from __future__ import print_function, division
 import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import pickle
 import glob
-from __future__ import print_function, division
 from music21 import converter, instrument, note, chord, stream
 from keras.layers import Input, Dense, Reshape, Dropout, CuDNNLSTM, Bidirectional
 from keras.layers import BatchNormalization, Activation, ZeroPadding2D
